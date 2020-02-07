@@ -1,4 +1,12 @@
 #include <iostream>
+ /**
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
 
 class Tree {
     /** Must support the following operations
@@ -10,6 +18,10 @@ class Tree {
     * Tree Traversal pre-order (root, L, R)
     * Tree Traversal post-order (L, R, root)
     **/
+private:
+
+public:
+    Tree() {}
 };
 
 int main() {
