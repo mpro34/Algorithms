@@ -15,4 +15,4 @@ TODO
 
 ##### Graph - Adjacency List
 A screenshot of the adjacenct list format:
-![Alt text](https://github.com/mpro34/Algorithms/blob/master/extra/graph.png)
+![Alt text](https://github.com/mpro34/Algorithms/blob/master/graph.png)
