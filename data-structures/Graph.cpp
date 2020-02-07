@@ -7,6 +7,7 @@ class Graph {
     * Remove edge
     * Print graph - DFS
     * Print graph - BFS
+    * Detect a cycle
     **/
 };
 
