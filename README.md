@@ -1,20 +1,17 @@
 # Algorithms
 
-### Searching
+### Algorithms to Implement:
 
-#### Binary Search
-TODO
-
-#### Depth First Search
-TODO
-
-#### Breadth First Search
+##### Binary Search
 TODO
 
 ### Data Structures
 
-#### Undirected Graph
+##### Tree 
 TODO
 
-#### Singly Linked List
+##### Singly Linked List
+TODO
+
+##### Graph - Adjacency List
 TODO
