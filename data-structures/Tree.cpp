@@ -1,14 +1,13 @@
 #include <iostream>
- /**
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
 
-class Tree {
+struct TreeNode {
+    int val;
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {};
+};
+
+struct Tree {
     /** Must support the following operations
     * Search for a Node
     * Insert a Node
@@ -18,10 +17,21 @@ class Tree {
     * Tree Traversal pre-order (root, L, R)
     * Tree Traversal post-order (L, R, root)
     **/
-private:
 
-public:
-    Tree() {}
+   TreeNode* root;
+
+    Tree() : root(new TreeNode(0)) {};
+    Tree(int x) : root(new TreeNode(x)) {};
+
+    bool FindNode(int x)
+    { // Return if the node is in the Tree or not
+
+    }
+
+    void InsertNode(TreeNode* node)
+    { // Insert the node into the tree, keeping order?
+
+    }
 };
 
 int main() {
